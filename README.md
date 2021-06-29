@@ -1,3 +1,21 @@
+# Steps to Add new Items to menu
+
+clone the repo into your pc
+
+in terminal use :
+### `npm install `  
+
+
+then Go to src/data.js file
+
+Add the item Name, category, Price, Image details to the List
+
+Then run 
+### `npm start`
+
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
