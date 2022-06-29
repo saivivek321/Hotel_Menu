@@ -16,9 +16,11 @@ function createbox(menuitem){
     );
 }
 function Menu({items}){
-  return (<div className="section-center">  
-         {items.map(createbox)}
-  </div>);
+  return (
+    <div className="section-center">  
+      {items.map(createbox)}
+    </div>
+  );
 };
 
 export default Menu;
