@@ -1,4 +1,5 @@
 import React from 'react';
+// import Dosa from 'images/dosa.jpg'
 
 function createbox(menuitem){
     const {id,title,img,desc,price}=menuitem;
