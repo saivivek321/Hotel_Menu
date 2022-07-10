@@ -4,7 +4,7 @@ const menu = [
         title: 'Dosa',
         category: 'breakfast',
         price: 45,
-        img: 'images/dosa.jpg',
+        img: './images/dosa.jpg',
         desc: 'A dosa is a thin pancake or crepe, originating from South India, made from a fermented batter predominantly consisting of lentils and rice.',
       },
     {
