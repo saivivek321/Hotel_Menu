@@ -1,4 +1,5 @@
 import React from 'react';
+// import Dosa from 'images/dosa.jpg'
 
 function createbox(menuitem){
     const {id,title,img,desc,price}=menuitem;
@@ -16,9 +17,11 @@ function createbox(menuitem){
     );
 }
 function Menu({items}){
-  return (<div className="section-center">  
-         {items.map(createbox)}
-  </div>);
+  return (
+    <div className="section-center">  
+      {items.map(createbox)}
+    </div>
+  );
 };
 
 export default Menu;

@@ -12,6 +12,7 @@ body {
   color: hsl(209, 61%, 16%);
   line-height: 1.5;
   font-size: 0.875rem;
+  background: #191c1f;
 }
 ul {
   list-style-type: none;
